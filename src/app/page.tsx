@@ -8,7 +8,9 @@ export default function Home() {
             fill
             quality={100}
             src="/vote_4_mizzu.jpg"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt="Picture of the author"
+            objectFit={'contain'}
         />
     </main>
   )

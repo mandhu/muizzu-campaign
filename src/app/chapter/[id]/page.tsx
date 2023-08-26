@@ -44,7 +44,7 @@ export default function Chapter({ params }: { params: { id: number } }) {
                         {/*<Image className="wow fadeInUp" width={150} src={vote4MuizzuColor} alt="Vote4Muizzu"/>*/}
                     </div>
                     {/*<p ><span className="bg-blue-gradient text-dark px-2 aammu">2023 - 2028</span></p>*/}
-                    <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">{chapter.title}</h2>
+                    <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp" style={{lineHeight: '1.6em'}}>{chapter.title}</h2>
                     {/*-- Heading end-->*/}
 
                     <div className="row">
@@ -52,7 +52,7 @@ export default function Chapter({ params }: { params: { id: number } }) {
                             <ol>
                                 {
                                     chapter.items.map((item: any, index: number) => (
-                                        <li className="wow text-3 fadeInUp mb-3" key={index.toString()}>{item.content}</li>
+                                        <li className="wow text-3 fadeInUp mb-5" key={index.toString()}>{item.content}</li>
                                     ))
                                 }
                             </ol>

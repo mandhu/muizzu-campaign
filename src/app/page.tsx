@@ -14,12 +14,12 @@ import {useEffect, useLayoutEffect} from 'react';
 
 export default function Home() {
 
-    // useEffect(() => {
-    //     const s = document.createElement("script");
-    //     s.setAttribute("src", "https://platform.twitter.com/widgets.js");
-    //     s.setAttribute("async", "true");
-    //     document.head.appendChild(s);
-    // }, []);
+    useEffect(() => {
+        const s = document.createElement("script");
+        s.setAttribute("src", "https://platform.twitter.com/widgets.js");
+        s.setAttribute("async", "true");
+        document.head.appendChild(s);
+    }, []);
 
     useEffect(() => {
         // @ts-ignore
@@ -193,26 +193,26 @@ export default function Home() {
             {/*-- Portfolio end -->*/}
 
             {/*-- Feed */}
-            {/*<section id="feed" className="section">*/}
-            {/*    <div className="container">*/}
-            {/*        <div className="row wow fadeInUp">*/}
-            {/*            <div className="col-md-7">*/}
-            {/*                <div className="px-3 mb-3">*/}
-            {/*                    <div style={{maxHeight: '500px', overflow: 'auto'}}>*/}
-            {/*                        <a className="twitter-timeline" href="https://twitter.com/MMuizzu?ref_src=twsrc%5Etfw">Tweets by MMuizzu</a>*/}
-            {/*                    </div>*/}
-            {/*                </div>*/}
-            {/*            </div>*/}
-            {/*            <div className="col-md-5">*/}
-            {/*                <div className="px-3">*/}
-            {/*                    <div style={{maxHeight: '500px', overflow: 'auto'}}>*/}
-            {/*                        <a className="twitter-timeline" href="https://twitter.com/TeamMuizzu?ref_src=twsrc%5Etfw">Tweets by TeamMuizzu</a>*/}
-            {/*                    </div>*/}
-            {/*                </div>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
+            <section id="feed" className="section">
+                <div className="container">
+                    <div className="row wow fadeInUp">
+                        <div className="col-md-7">
+                            <div className="px-3 mb-3">
+                                <div style={{maxHeight: '500px', overflow: 'auto'}}>
+                                    <a className="twitter-timeline" href="https://twitter.com/MMuizzu?ref_src=twsrc%5Etfw">Tweets by MMuizzu</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-5">
+                            <div className="px-3">
+                                <div style={{maxHeight: '500px', overflow: 'auto'}}>
+                                    <a className="twitter-timeline" href="https://twitter.com/TeamMuizzu?ref_src=twsrc%5Etfw">Tweets by TeamMuizzu</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             {/*-- Feed end */}
 
         </div>

@@ -3417,12 +3417,12 @@ select.form-control:not([size]):not([multiple]):not(.form-control-sm) {
   background: linear-gradient(180deg, rgba(233,43,146,1) 0%, rgba(154,41,138,1) 100%);
 }
 .backdrop {
-  background: url("../images/campaign/backdrop.png");
+  background: url("../images/campaign/backdrop.webp");
   background-size: cover;
 }
 .footer-bg {
   background: rgba(154,41,138,1);
-  background: url("../images/campaign/footer.png");
+  background: url("../images/campaign/footer.webp");
   background-size: cover;
 }
 

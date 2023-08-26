@@ -6,8 +6,8 @@ import Image from 'next/image';
 import dhivehingeRaajjePlain from '../../../public/images/campaign/dhivehi-rajje-color-white.png';
 import vote4MuizzuColor from '../../../public/images/campaign/logo_vote4muizzu-color.png';
 import vote4Muizzupnc from '../../../public/images/campaign/pnc-check-4-blue.png';
-import muizzu from '../../../public/images/campaign/muizzu-full.png';
-import sembe from '../../../public/images/campaign/sembe-half.png';
+import muizzu from '../../../public/images/campaign/muizzu.webp';
+import sembe from '../../../public/images/campaign/sembe.webp';
 
 export default function Introduction() {
     return (

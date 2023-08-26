@@ -7,7 +7,7 @@ import dhivehingeRaajjePlain from '../../public/images/campaign/dhivehi-rajje-co
 import vote4MuizzuColor from '../../public/images/campaign/logo_vote4muizzu-color.png';
 import vote4Muizzupnc from '../../public/images/campaign/pnc-check-4-blue.png';
 import muizzuAndSembe from '../../public/images/campaign/muizzu-and-sembe.jpg';
-import vote4Muizzu from '../../public/images/campaign/DrMuizzuSembe-blue-bg.png';
+import vote4Muizzu from '../../public/images/campaign/DrMuizzuSembe.webp';
 import Link from 'next/link';
 import data from './data';
 import {useEffect, useLayoutEffect} from 'react';
@@ -87,8 +87,8 @@ export default function Home() {
                                     data.map(item => (<p key={item.title}>{item.title}</p>))
                                 }
                             </div>
-                            <div style={{minHeight: '300px'}}>
-                                <h2 className="text-21 fw-600 text-uppercase text-light-blue mb-0 ms-n1"><span className="typed"></span></h2>
+                            <div style={{minHeight: '315px'}}>
+                                <h2 className="text-21 fw-600 text-uppercase text-light-blue mb-0 ms-n1" style={{lineHeight: 1.5}}><span className="typed"></span></h2>
                             </div>
                             {/*<p className="text-5">based in Los Angeles, USA.</p>*/}
                             <Image height={60} src={vote4Muizzupnc} alt="Vote4Muizzu"/>
@@ -197,7 +197,7 @@ export default function Home() {
                 <div className="container">
                     <div className="row wow fadeInUp">
                         <div className="col-md-7">
-                            <div className="px-3 mb-3">
+                            <div className="px-3 mb-5">
                                 <div style={{maxHeight: '500px', overflow: 'auto'}}>
                                     <a className="twitter-timeline" href="https://twitter.com/MMuizzu?ref_src=twsrc%5Etfw">Tweets by MMuizzu</a>
                                 </div>

@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,12 +16,32 @@
   }
 }
 
+
+@font-face {
+  font-family: 'Faruma';
+  src: url('../../public/fonts/Faruma.otf') format('otf');
+}
+
+@font-face {
+  font-family: Typewriter;
+  font-weight: 400;
+  src: url('../../public/fonts/mvtyper.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: Aammu;
+  src: url('../../public/fonts/aammufkF.ttf') format("truetype")
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: Typewriter, sans-serif !important;
+}
+.typer {
+  font-family: Typewriter, sans-serif;
+}
+.aammu {
+  font-family: Aammu, serif;
+}
+.faruma {
+  font-family: 'Faruma', sans-serif;
 }

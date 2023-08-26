@@ -31,7 +31,7 @@ export default function RootLayout({
         <html lang="en" dir="rtl">
         <head>
             <title>Vote4Muizzu.com</title>
-            <meta name="description"  content="Vote 4 Muizzu. DhivehingeRaajje. Dhivehimge Ummeedhu. Dr. Muizzu and Sembe" />
+            <meta name="description"  content="Vote 4 Muizzu. DhivehingeRaajje. Dhivehinge Ummeedhu. Dr. Muizzu and Sembe" />
             <Script src="/vendor/jquery/jquery.min.js" strategy="beforeInteractive"/>
             <Script src="/vendor/jquery.easing/jquery.easing.min.js" strategy="beforeInteractive"/>
             <Script src="/vendor/jquery.appear/jquery.appear.min.js" strategy="beforeInteractive"/>
@@ -43,7 +43,7 @@ export default function RootLayout({
 
             <meta property="og:type" content="website" />
             <meta property="og:title" content="Vote4Muizzu.com" />
-            <meta property="og:description" content="Vote 4 Muizzu. DhivehingeRaajje. Dhivehimge Ummeedhu. Dr. Muizzu and Sembe" />
+            <meta property="og:description" content="Vote 4 Muizzu. DhivehingeRaajje. Dhivehinge Ummeedhu. Dr. Muizzu and Sembe 2023" />
             <meta property="og:url" content="https://vote4muizzu.com/" />
             <meta property="og:site_name" content="Vote4Muizzu.com" />
             <meta property="og:image" content="https://vote4muizzu.com/vote_4_mizzu.jpg" />
@@ -52,7 +52,7 @@ export default function RootLayout({
             <meta property="og:image:height" content="200" />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Vote4Muizzu.com" />
-            <meta name="twitter:description" content="Vote 4 Muizzu. DhivehingeRaajje. Dhivehimge Ummeedhu. Dr. Muizzu and Sembe" />
+            <meta name="twitter:description" content="Vote 4 Muizzu. DhivehingeRaajje. Dhivehinge Ummeedhu. Dr. Muizzu and Sembe 2023" />
             <meta name="twitter:image" content="https://vote4muizzu.com/vote_4_mizzu.jpg" />
 
         </head>

@@ -1,4 +1,8 @@
 "use client";
+
+export const runtime = 'edge'
+
+
 import Image from 'next/image';
 import dhivehingeRaajjePlain from '../../../../public/images/campaign/dhivehi-rajje-color-white.png';
 import vote4Muizzupnc from '../../../../public/images/campaign/pnc-check-4-blue.png';

@@ -1,4 +1,5 @@
 'use client';
+
 import './globals.css';
 import '../../public/vendor/animate/animate.min.css';
 import '../../public/vendor/bootstrap/css/bootstrap.rtl.min.css';
@@ -13,6 +14,7 @@ import dhivehingeRaajjePlain from '../../public/images/campaign/dhivehi-rajje-co
 import Link from 'next/link';
 import dhivehingeRaajje from '../../public/images/campaign/dhivehi-raajje-white-bg.png';
 
+export const runtime = 'edge'
 // const inter = Inter({ subsets: ['latin'] })
 
 // export const metadata: Metadata = {

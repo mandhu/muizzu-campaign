@@ -1,8 +1,30 @@
+import one from '../../public/images/manifesto/1-zuvaanun.webp';
+import two from '../../public/images/manifesto/2-kanbalun.webp';
+import three from '../../public/images/manifesto/3-fisherman.webp';
+import four from '../../public/images/manifesto/4-housing.webp';
+import five from '../../public/images/manifesto/5-oagaatheri-mujuthama.webp';
+import six from '../../public/images/manifesto/6-islaamee-noor.webp';
+import seven from '../../public/images/manifesto/7-vazeefa-aa-vuneyrukan.webp';
+import eight from '../../public/images/manifesto/8-thauleemaai-thamreen.webp';
+import nine from '../../public/images/manifesto/9-digitalization.webp';
+import ten from '../../public/images/manifesto/10-fannuverikan.webp';
+import eleven from '../../public/images/manifesto/11-kulhivara-kasrathu.webp';
+import twelve from '../../public/images/manifesto/12-HEALTHCARE.webp';
+import thirteen from '../../public/images/manifesto/13-SARUKAARU-HINGUN.webp';
+import fourteen from '../../public/images/manifesto/14-IQTHISOADHU.webp';
+import fifteen from '../../public/images/manifesto/15-UMRAANEE-THARAGGEE.webp';
+import sixteen from '../../public/images/manifesto/16-FATHURUVERIN.webp';
+import seventeen from '../../public/images/manifesto/17-DHANDUVERIKAN.webp';
+import eighteen from '../../public/images/manifesto/18-ENERGY.webp';
+import nineteen from '../../public/images/manifesto/19-QAANOONEE-VERIKAN.webp';
+
+
 export default [
     {
         id: 1,
         class: 'zuvaanun',
         title: "ޒުވާނުން",
+        image: one,
         items: [
             {
                 number: 1,
@@ -170,6 +192,7 @@ export default [
         id: 2,
         class: 'kanbalun',
         title: "ކަނބަލުން",
+        image: two,
         items: [
             {
                 number: 1,
@@ -323,6 +346,7 @@ export default [
         id: 3,
         class: 'masverikan',
         title: 'މަސްވެރިކަން',
+        image: three,
         items: [
             {
                 number: 1,
@@ -465,6 +489,7 @@ export default [
         id: 4,
         class: 'gedhoruverikan',
         title: 'ގެދޮރުވެރިކަމާއި އާރބަނައިޒޭޝަން',
+        image: four,
         items: [
             {
                 number: 1,
@@ -682,6 +707,7 @@ export default [
         id: 5,
         class: 'ogatheri-mujuthamau',
         title: 'އޯގާތެރި މުޖްތަމަޢު',
+        image: five,
         items: [
             {
                 number: 1,
@@ -779,6 +805,7 @@ export default [
         id: 6,
         class: 'islam-dheen',
         title: 'އިސްލާމީ ނޫރާއި ދީނީ އަޤީދާ',
+        image: six,
         items: [
             {
                 number: 1,
@@ -856,6 +883,7 @@ export default [
         id: 7,
         class: 'vazeefaa',
         title: 'ވަޒީފާއާއި ވުނޭރުކަން',
+        image: seven,
         items: [
             {
                 number: 1,
@@ -903,6 +931,7 @@ export default [
         id: 8,
         class: 'thauleem',
         title: 'ތަޢުލީމާއި ތަމްރީނު',
+        image: eight,
         items: [
             {
                 number: 1,
@@ -990,6 +1019,7 @@ export default [
         id: 9,
         class: 'technology',
         title: 'ޓެކްނޮލޮޖީ އަދި ޑިޖިޓަލައިޒޭޝަން',
+        image: nine,
         items: [
             {
                 number: 1,
@@ -1076,6 +1106,7 @@ export default [
     {
         id: 10,
         class: "fannuverikan",
+        image: ten,
         title: "ފަންނުވެރިކަން",
         items: [
             {
@@ -1109,6 +1140,7 @@ export default [
         id: 11,
         class: "kulhivaru",
         title: "ކުޅިވަރާއި ކަސްރަތު",
+        image: eleven,
         items: [
             {
                 number: 1,
@@ -1161,6 +1193,7 @@ export default [
         id: 12,
         class: "sihee-nizaamu",
         title: "ޞިއްޙީ ނިޒާމާއި ފަރުވާ",
+        image: twelve,
         items: [
             {
                 number: 1,
@@ -1318,6 +1351,7 @@ export default [
         id: 13,
         class: "sarukaaru-hingun",
         title: "ސަރުކާރު ހިންގުމާއި ސިޔާސަތު ރޭވުން",
+        image: thirteen,
         items: [
             {
                 number: 1,
@@ -1395,6 +1429,7 @@ export default [
         id: 14,
         class: "igthisoadhu",
         title: "އިޤްތިޞާދާއި މާލިއްޔަތު",
+        image: fourteen,
         items: [
             {
                 number: 1,
@@ -1507,6 +1542,7 @@ export default [
         id: 15,
         class: "umuraanee-tharaggee",
         title: "އުމްރާނީ ތަރައްޤީއާއި މަޝްރޫޢުތައް",
+        image: fifteen,
         items: [
             {
                 number: 1,
@@ -1574,6 +1610,7 @@ export default [
         id: 16,
         class: "fathuruverikan",
         title: "ފަތުރުވެރިކަން",
+        image: sixteen,
         items: [
             {
                 number: 1,
@@ -1656,6 +1693,7 @@ export default [
         id: 17,
         class: "dhanduverikan-kaaboa",
         title: "ދަނޑުވެރިކަމާއި ކާބޯތަކެތި",
+        image: seventeen,
         items: [
             {
                 number: 1,
@@ -1688,6 +1726,7 @@ export default [
         id: 18,
         class: "thimaaveshi-tharaggee",
         title: "ތިމާވެއްޓާއި ހަކަތަ އަދި ދެމެހެއްޓެނިވި ތަރައްޤީ",
+        image: eighteen,
         items: [
             {
                 number: 1,
@@ -1755,6 +1794,7 @@ export default [
         id: 19,
         class: "ganoonee-islaahu",
         title: "ދުސްތޫރީ، ޤާނޫނީ އަދި ޝަރުޢީ އިޞްލާޙު",
+        image: nineteen,
         items: [
             {
                 number: 1,

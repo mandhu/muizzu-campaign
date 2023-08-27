@@ -7,7 +7,6 @@ import dhivehingeRaajjePlain from '../../public/images/campaign/dhivehi-rajje-co
 import vote4MuizzuColor from '../../public/images/campaign/logo_vote4muizzu-color.png';
 import vote4Muizzupnc from '../../public/images/campaign/pnc-check-4-blue.png';
 import muizzuAndSembe from '../../public/images/campaign/muizzu-and-sembe.jpg';
-import vote4Muizzu from '../../public/images/campaign/DrMuizzuSembe.webp';
 import Link from 'next/link';
 import data from './data';
 import {useEffect, useLayoutEffect} from 'react';
@@ -173,7 +172,7 @@ export default function Home() {
                                                            width: '100%',
                                                            height: 'auto',
                                                        }}
-                                                       src={vote4Muizzu} alt="vote4Muizzu"/>
+                                                       src={item.image} alt="vote4Muizzu"/>
                                                 <div className="portfolio-overlay">
                                                     <div className="portfolio-overlay-details">
                                                         <h5 className="text-white text-5">{item.title}</h5>

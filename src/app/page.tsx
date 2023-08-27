@@ -192,6 +192,22 @@ export default function Home() {
             </section>
             {/*-- Portfolio end -->*/}
 
+            {/*-- Call to Action*/}
+            {/*============================================= -->*/}
+            <section>
+                <div className="hero-wrap">
+                    <div className="hero-mask opacity-50 bg-dark"></div>
+                    <div className="hero-bg backdrop"></div>
+                    <div className="hero-content section">
+                        <div className="container text-center py-5 wow fadeInUp">
+                            <h2 className="text-10 fw-600 text-white mb-5">ކެމްޕެއިން މެޓީރިއަލްސް ޑައުންލޯޑް ކުރަށްވާ</h2>
+                            <a href="https://drive.google.com/drive/folders/1KS9pjkcReyxwkFgMEpbIUuKpuOQ5ik6L" target="_blank" className="btn btn-primary wow rubberBand text-light" data-wow-delay="1s">ޑައުންލޯޑްސް</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/*-- Call to Action end -->*/}
+
             {/*-- Feed */}
             <section id="feed" className="section">
                 <div className="container">

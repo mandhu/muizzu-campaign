@@ -92,8 +92,12 @@ export default function Home() {
                             {/*<p className="text-5">based in Los Angeles, USA.</p>*/}
                             <Image height={60} src={vote4Muizzupnc} alt="Vote4Muizzu"/>
                             <br/>
-                            <a href="/manifesto.pdf" download target="_blank" className="btn btn-dark mt-3">ޑައުންލޯޑް މެނިފެސްޓޯ</a>
-                            <a href="#manifesto" className="btn btn-link text-light smooth-scroll mt-3">މެނިފެސްޓޯ ކިޔާލުމަށް<span className="text-4 ms-2"><i className="far fa-arrow-alt-circle-down"></i></span></a>
+                            <div className="d-flex flex-row gap-3">
+                                <a href="/Manifesto_Dhivehi.pdf" download target="_blank" className="btn btn-dark mt-3">ޑައުންލޯޑް މެނިފެސްޓޯ</a>
+                                <a href="/Manifesto_English.pdf" download target="_blank" className="btn btn-dark mt-3">Download Manifesto</a>
+                            </div>
+
+                            {/*<a href="#manifesto" className="btn btn-link text-light smooth-scroll mt-3">މެނިފެސްޓޯ ކިޔާލުމަށް<span className="text-4 ms-2"><i className="far fa-arrow-alt-circle-down"></i></span></a>*/}
                         </div>
                         <div className="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
                             <div className="bg-light rounded-pill d-inline-block p-1 shadow-lg wow zoomIn">

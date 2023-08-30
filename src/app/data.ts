@@ -44,6 +44,7 @@ export default [
         class: 'zuvaanun',
         title: "ޒުވާނުން",
         image: one,
+        audio: '/audio/manifesto/CHAPTER_1_ZUVAANUN.mp3',
         items: [
             {
                 number: 1,
@@ -212,6 +213,7 @@ export default [
         class: 'kanbalun',
         title: "ކަނބަލުން",
         image: two,
+        audio: '/audio/manifesto/CHAPTER_2_KANBALUN.mp3',
         items: [
             {
                 number: 1,
@@ -366,6 +368,7 @@ export default [
         class: 'masverikan',
         title: 'މަސްވެރިކަން',
         image: three,
+        audio: '/audio/manifesto/CHAPTER_3_MASVERIN.mp3',
         items: [
             {
                 number: 1,
@@ -509,6 +512,7 @@ export default [
         class: 'gedhoruverikan',
         title: 'ގެދޮރުވެރިކަމާއި އާރބަނައިޒޭޝަން',
         image: four,
+        audio: '/audio/manifesto/CHAPTER_4_GEDHORUVERIKAMAAI_URBANISATION.mp3',
         items: [
             {
                 number: 1,
@@ -727,6 +731,7 @@ export default [
         class: 'ogatheri-mujuthamau',
         title: 'އޯގާތެރި މުޖްތަމަޢު',
         image: five,
+        audio: '/audio/manifesto/CHAPTER_5_OAGATHERI_MUJTHAMAU.mp3',
         items: [
             {
                 number: 1,
@@ -825,6 +830,7 @@ export default [
         class: 'islam-dheen',
         title: 'އިސްލާމީ ނޫރާއި ދީނީ އަޤީދާ',
         image: six,
+        audio: '/audio/manifesto/CHAPTER_6_ISLAAMEE_NOORAA_DHEENEE_AGEEDHA.mp3',
         items: [
             {
                 number: 1,
@@ -903,6 +909,7 @@ export default [
         class: 'vazeefaa',
         title: 'ވަޒީފާއާއި ވުނޭރުކަން',
         image: seven,
+        audio: '/audio/manifesto/CHAPTER_7_VAZEEFA_AAI_VUNEYRUKAN.mp3',
         items: [
             {
                 number: 1,
@@ -951,6 +958,7 @@ export default [
         class: 'thauleem',
         title: 'ތަޢުލީމާއި ތަމްރީނު',
         image: eight,
+        audio: '/audio/manifesto/CHAPTER_8_THAULEEMA_THAMREENU.mp3',
         items: [
             {
                 number: 1,
@@ -1039,6 +1047,7 @@ export default [
         class: 'technology',
         title: 'ޓެކްނޮލޮޖީ އަދި ޑިޖިޓަލައިޒޭޝަން',
         image: nine,
+        audio: '/audio/manifesto/CHAPTER_9_TECHNOLOGY_ADHI_DIGITALIZATION.mp3',
         items: [
             {
                 number: 1,
@@ -1126,6 +1135,7 @@ export default [
         id: 10,
         class: "fannuverikan",
         image: ten,
+        audio: '/audio/manifesto/CHAPTER_10_FANNNUVERIKAN.mp3',
         title: "ފަންނުވެރިކަން",
         items: [
             {
@@ -1160,6 +1170,7 @@ export default [
         class: "kulhivaru",
         title: "ކުޅިވަރާއި ކަސްރަތު",
         image: eleven,
+        audio: '/audio/manifesto/CHAPTER_11_KULHIVARAAI_KASRATHU.mp3',
         items: [
             {
                 number: 1,
@@ -1213,6 +1224,7 @@ export default [
         class: "sihee-nizaamu",
         title: "ޞިއްޙީ ނިޒާމާއި ފަރުވާ",
         image: twelve,
+        audio: '/audio/manifesto/CHAPTER_12_SIHHEE_NIZAAMAAI_FARUVA.mp3',
         items: [
             {
                 number: 1,
@@ -1371,6 +1383,7 @@ export default [
         class: "sarukaaru-hingun",
         title: "ސަރުކާރު ހިންގުމާއި ސިޔާސަތު ރޭވުން",
         image: thirteen,
+        audio: '/audio/manifesto/CHAPTER_13_SARUKAARU_HINGUMAAI_SIYAASATHU_REYVUN.mp3',
         items: [
             {
                 number: 1,
@@ -1449,6 +1462,7 @@ export default [
         class: "igthisoadhu",
         title: "އިޤްތިޞާދާއި މާލިއްޔަތު",
         image: fourteen,
+        audio: '/audio/manifesto/CHAPTER_14_IGTHISAADHAAI_MAALIYATHU.mp3',
         items: [
             {
                 number: 1,
@@ -1562,6 +1576,7 @@ export default [
         class: "umuraanee-tharaggee",
         title: "އުމްރާނީ ތަރައްޤީއާއި މަޝްރޫޢުތައް",
         image: fifteen,
+        audio: '/audio/manifesto/CHAPTER_15_UMRAANEE_THARAHGEE_AAI_MASHROOU_THAH.mp3',
         items: [
             {
                 number: 1,
@@ -1630,6 +1645,7 @@ export default [
         class: "fathuruverikan",
         title: "ފަތުރުވެރިކަން",
         image: sixteen,
+        audio: '/audio/manifesto/CHAPTER_16_FATHURUVERIKAN.mp3',
         items: [
             {
                 number: 1,
@@ -1713,6 +1729,7 @@ export default [
         class: "dhanduverikan-kaaboa",
         title: "ދަނޑުވެރިކަމާއި ކާބޯތަކެތި",
         image: seventeen,
+        audio: '/audio/manifesto/CHAPTER_17_DHANDUVERIKAMAAI_KABOA_THAKETHI.mp3',
         items: [
             {
                 number: 1,
@@ -1746,6 +1763,7 @@ export default [
         class: "thimaaveshi-tharaggee",
         title: "ތިމާވެއްޓާއި ހަކަތަ އަދި ދެމެހެއްޓެނިވި ތަރައްޤީ",
         image: eighteen,
+        audio: '/audio/manifesto/CHAPTER_18_THIMAVEHTA_HAKATHA_ADHI_DHEMEHEHTENIVI_THARAHGEE.mp3',
         items: [
             {
                 number: 1,
@@ -1814,6 +1832,7 @@ export default [
         class: "ganoonee-islaahu",
         title: "ދުސްތޫރީ، ޤާނޫނީ އަދި ޝަރުޢީ އިޞްލާޙު",
         image: nineteen,
+        audio: '/audio/manifesto/CHAPTER_19_DHUSTHOORI_GAANOONI_ADHI_SHARUEE_ISLAAHU.mp3',
         items: [
             {
                 number: 1,

@@ -49,6 +49,13 @@ export default function Chapter({ params }: { params: { id: number } }) {
             {/*============================================= -->*/}
             <section id="about" className="section">
                 <div className="container">
+                    <div className="mb-5 text-center">
+                        <audio controls>
+                            {/*<source src="horse.ogg" type="audio/ogg"/>*/}
+                            <source src={chapter.audio} type="audio/mpeg"/>
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
                     {/*/!*-- Heading -->*!/*/}
                     {/*<div className="text-center mb-2 wow fadeInUp">*/}
                     {/*    ޗެޕްޓަރު {chapter.id}*/}

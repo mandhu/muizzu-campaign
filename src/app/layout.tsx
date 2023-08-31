@@ -68,8 +68,11 @@ export default function RootLayout({
                     gtag('js', new Date());
                     // @ts-ignore
                     gtag('config', 'AW-11316269106');
+                    // @ts-ignore
+                    gtag('event', 'conversion', {'send_to': 'AW-11316269106/HN67CL_G1NoYELKggpQq'});
                 }}
             />
+
         </head>
         <body className="rtl" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
             {/*Preloader*/}

@@ -1,5 +1,7 @@
 'use client';
 
+import Script from 'next/script';
+
 export const runtime = 'edge'
 
 import Image from 'next/image';
@@ -72,6 +74,10 @@ export default function Home() {
 
     return (
         <div id="content" role="main">
+            {/*<Script src="https://www.googletagmanager.com/gtag/js?id=AW-11316269106" />*/}
+            {/*<Script id="google-analytics">*/}
+            {/*    {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11316269106');`}*/}
+            {/*</Script>*/}
             {/*-- Intro*/}
             {/*============================================= -->*/}
             <section id="home" className="backdrop d-flex fullscreen position-relative py-5">

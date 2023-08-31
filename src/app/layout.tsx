@@ -55,6 +55,21 @@ export default function RootLayout({
             <meta name="twitter:description" content="Vote 4 Muizzu. DhivehingeRaajje. Dhivehinge Ummeedhu. Dr. Muizzu and Sembe 2023" />
             <meta name="twitter:image" content="https://vote4muizzu.com/vote_4_mizzu.jpg" />
 
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=AW-11316269106"
+                onLoad={() => {
+                    // @ts-ignore
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){
+                        // @ts-ignore
+                        dataLayer.push(arguments);
+                    }
+                    // @ts-ignore
+                    gtag('js', new Date());
+                    // @ts-ignore
+                    gtag('config', 'AW-11316269106');
+                }}
+            />
         </head>
         <body className="rtl" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
             {/*Preloader*/}

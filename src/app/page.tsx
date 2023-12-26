@@ -15,62 +15,62 @@ import {useEffect, useLayoutEffect} from 'react';
 
 export default function Home() {
 
-    useEffect(() => {
-        const s = document.createElement("script");
-        s.setAttribute("src", "https://platform.twitter.com/widgets.js");
-        s.setAttribute("async", "true");
-        document.head.appendChild(s);
-    }, []);
-
-    useEffect(() => {
-        // @ts-ignore
-        $(".portfolio-filter").each(function() {
-            // @ts-ignore
-            var e = $(this);
-            e.imagesLoaded(function () {
-                // @ts-ignore
-                if ($("html").attr("dir") == 'rtl') {
-                    var rtlVal = false
-                }else{
-                    var rtlVal = true;
-                }
-                var $grid = e.isotope({
-                    layoutMode: "masonry",
-                    originLeft: rtlVal
-                });
-                // @ts-ignore
-                $(".portfolio-menu").find("a").on("click", function() {
-                    // @ts-ignore
-                    var filterValue = $(this).attr("data-filter");
-                    // @ts-ignore
-                    return $(".portfolio-menu").find("a").removeClass("active"), $(this).addClass("active"),
-                        $grid.isotope({
-                            filter: filterValue
-                        }), !1
-                });
-            });
-        });
-    }, []);
-
-    useLayoutEffect(() => {
-        const s = document.createElement("script");
-        s.setAttribute("src", "/vendor/typed/typed.min.js");
-        s.setAttribute("async", "true");
-        document.head.appendChild(s);
-        s.onload = () => {
-            // @ts-ignore
-            $(".typed").each(function() {
-                // @ts-ignore
-                var typed = new Typed('.typed', {
-                    stringsElement: '.typed-strings',
-                    loop: true,
-                    typeSpeed: 100,
-                    backSpeed: 50,
-                    backDelay: 1500,
-                });
-            });
-        }
-    }, [])
+    // useEffect(() => {
+    //     const s = document.createElement("script");
+    //     s.setAttribute("src", "https://platform.twitter.com/widgets.js");
+    //     s.setAttribute("async", "true");
+    //     document.head.appendChild(s);
+    // }, []);
+    //
+    // useEffect(() => {
+    //     // @ts-ignore
+    //     $(".portfolio-filter").each(function() {
+    //         // @ts-ignore
+    //         var e = $(this);
+    //         e.imagesLoaded(function () {
+    //             // @ts-ignore
+    //             if ($("html").attr("dir") == 'rtl') {
+    //                 var rtlVal = false
+    //             }else{
+    //                 var rtlVal = true;
+    //             }
+    //             var $grid = e.isotope({
+    //                 layoutMode: "masonry",
+    //                 originLeft: rtlVal
+    //             });
+    //             // @ts-ignore
+    //             $(".portfolio-menu").find("a").on("click", function() {
+    //                 // @ts-ignore
+    //                 var filterValue = $(this).attr("data-filter");
+    //                 // @ts-ignore
+    //                 return $(".portfolio-menu").find("a").removeClass("active"), $(this).addClass("active"),
+    //                     $grid.isotope({
+    //                         filter: filterValue
+    //                     }), !1
+    //             });
+    //         });
+    //     });
+    // }, []);
+    //
+    // useLayoutEffect(() => {
+    //     const s = document.createElement("script");
+    //     s.setAttribute("src", "/vendor/typed/typed.min.js");
+    //     s.setAttribute("async", "true");
+    //     document.head.appendChild(s);
+    //     s.onload = () => {
+    //         // @ts-ignore
+    //         $(".typed").each(function() {
+    //             // @ts-ignore
+    //             var typed = new Typed('.typed', {
+    //                 stringsElement: '.typed-strings',
+    //                 loop: true,
+    //                 typeSpeed: 100,
+    //                 backSpeed: 50,
+    //                 backDelay: 1500,
+    //             });
+    //         });
+    //     }
+    // }, [])
 
     return (
         <div id="content" role="main">
